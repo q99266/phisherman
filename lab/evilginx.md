@@ -45,19 +45,9 @@ docker-compose up --build
 ```
 
 Modify (using sudo) the `/etc/hosts/` in your VM to include the IP addresses of the docker containers.
-your hosts file should look like this: <br>
+add the following values to the file: <br>
 
 ```
-127.0.0.1 localhost
-
-
-# The following lines are desirable for IPv6 capable hosts
-::1     ip6-localhost ip6-loopback
-fe00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
-
 172.13.37.11    sec565.rocks
 172.13.37.12    sec565.phish
 172.13.37.13    mailhog.local
