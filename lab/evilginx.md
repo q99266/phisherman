@@ -349,7 +349,7 @@ login:
 
 
     ```bash
-    lures create sec565.rocks
+    lures create sec565rocks
     ```
 
     Once we have a lure created we can get the lure URL using 
